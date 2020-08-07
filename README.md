@@ -2,11 +2,11 @@
 Base backend API with auth/user routes and error handling. 
 
 Set the following config variables
-NODE_ENV=<development/production>
-PORT=<int>
+NODE_ENV=development/production
+PORT=1234
 
-MONGO_URI=<string>
+MONGO_URI=your_mongo_uri
 
-JWT_SECRET=<string>
-JWT_EXPIRE=<1h, 2d>
-JWT_COOKIE_EXPIRE=<int>
+JWT_SECRET=your_secret_string
+JWT_EXPIRE=1h
+JWT_COOKIE_EXPIRE=30
