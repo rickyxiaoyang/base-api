@@ -1,5 +1,6 @@
 # base-api
 Base backend API with auth/user routes and error handling. 
+This is used when you want to avoid the user auth template for nodejs. Clone and add functionality. 
 
 Set the following config variables
 NODE_ENV=development/production
